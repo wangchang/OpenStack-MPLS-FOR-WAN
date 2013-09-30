@@ -1,0 +1,269 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AdminRequired	.\common\huawei_exceptions.py	/^class AdminRequired(AdminRequired):$/;"	c
+AdminRequired	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+AttachmentNotFound	.\common\huawei_exceptions.py	/^class AttachmentNotFound(NotFound):$/;"	c
+BadRequest	.\common\huawei_exceptions.py	/^class BadRequest(BadRequest):$/;"	c
+BadRequest	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+Binary	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+Boolean	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+Column	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+DateTime	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+ForeignKey	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+HuaWeiPluginDb	.\db\huawei_db.py	/^class HuaWeiPluginDb(db_base_plugin_v2.QuantumDbPluginV2):$/;"	c
+HuaWeiQuantumDriver	.\dirver\huawei_dirver.py	/^class HuaWeiQuantumDriver(object):$/;"	c
+HuaWeiQuantumPlugin	.\huawei_plugin.py	/^class HuaWeiQuantumPlugin(huawei_db.HuaWeiPluginDb):$/;"	c
+HuaweiAuthProtocol	.\huawei_auth.py	/^class HuaweiAuthProtocol(object):$/;"	c
+InUse	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+Integer	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+LOG	.\db\huawei_db.py	/^LOG = logging.getLogger(__name__)$/;"	v
+MultiResults	.\common\huawei_exceptions.py	/^class MultiResults(QuantumException):$/;"	c
+NotAuthorized	.\common\huawei_exceptions.py	/^class NotAuthorized(NotAuthorized):$/;"	c
+NotAuthorized	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+NotFound	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+QuantumException	.\common\huawei_exceptions.py	/^from quantum.common.exceptions import QuantumException,BadRequest,NotFound,NotAuthorized,AdminRequired,InUse$/;"	i
+SiteAttachment	.\db\huawei_models_v2.py	/^class SiteAttachment(model_base.BASEV2):$/;"	c
+SiteInUse	.\common\huawei_exceptions.py	/^class SiteInUse(InUse):$/;"	c
+SiteInformation	.\db\huawei_models_v2.py	/^class SiteInformation(model_base.BASEV2):$/;"	c
+SiteNotFound	.\common\huawei_exceptions.py	/^class SiteNotFound(NotFound):$/;"	c
+SiteUpdate	.\db\huawei_models_v2.py	/^class SiteUpdate(model_base.BASEV2):$/;"	c
+String	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+TODO	.\huawei_plugin.py	/^from quantum.extensions import providernet as provider #TODO$/;"	i
+TenantInformation	.\db\huawei_models_v2.py	/^class TenantInformation(model_base.BASEV2):$/;"	c
+TenantSites	.\db\huawei_models_v2.py	/^class TenantSites(model_base.BASEV2):$/;"	c
+TenantVc	.\db\huawei_models_v2.py	/^class  TenantVc(model_base.BASEV2):$/;"	c
+TenantVn	.\db\huawei_models_v2.py	/^class TenantVn(model_base.BASEV2):$/;"	c
+VcInUSe	.\common\huawei_exceptions.py	/^class VcInUSe(InUse):$/;"	c
+VcInformation	.\db\huawei_models_v2.py	/^class VcInformation(model_base.BASEV2):$/;"	c
+VcNotFound	.\common\huawei_exceptions.py	/^class VcNotFound(NotFound):$/;"	c
+VlinkInformation	.\db\huawei_models_v2.py	/^class VlinkInformation(model_base.BASEV2):$/;"	c
+VlinkNotFound	.\common\huawei_exceptions.py	/^class VlinkNotFound(NotFound):$/;"	c
+VnInUse	.\common\huawei_exceptions.py	/^class VnInUse(InUse):$/;"	c
+VnInformation	.\db\huawei_models_v2.py	/^class VnInformation(model_base.BASEV2):$/;"	c
+VnLink	.\db\huawei_models_v2.py	/^class VnLink(model_base.BASEV2):$/;"	c
+VnNotFound	.\common\huawei_exceptions.py	/^class VnNotFound(NotFound):$/;"	c
+VnSite	.\db\huawei_models_v2.py	/^class VnSite(model_base.BASEV2):$/;"	c
+XMLDeserializer	.\db\huawei_db.py	/^from quantum.wsgi import XMLDeserializer  ##xml --> json$/;"	i
+XMLDictSerializer	.\db\huawei_db.py	/^from quantum.wsgi import XMLDictSerializer ## json --> xml$/;"	i
+__call__	.\huawei_auth.py	/^    def __call__(self, environ, start_response):$/;"	m	class:HuaweiAuthProtocol	file:
+__init__	.\db\huawei_db.py	/^    def __init__(self):$/;"	m	class:HuaWeiPluginDb
+__init__	.\huawei_auth.py	/^    def __init__(self, application, conf):$/;"	m	class:HuaweiAuthProtocol
+__init__	.\huawei_plugin.py	/^    def __init__(self):$/;"	m	class:HuaWeiQuantumPlugin
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'siteattach'$/;"	v	class:SiteAttachment
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'siteinfo'$/;"	v	class:SiteInformation
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'siteupdate'$/;"	v	class:SiteUpdate
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'tenantsite'$/;"	v	class:TenantSites
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'tenantvc'$/;"	v	class:TenantVc
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'tenantvn'$/;"	v	class:TenantVn
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'vcinfo'$/;"	v	class:VcInformation
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'vlink'$/;"	v	class:VlinkInformation
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'vninfo'$/;"	v	class:VnInformation
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'vnlink'$/;"	v	class:VnLink
+__tablename__	.\db\huawei_models_v2.py	/^	__tablename__ = 'vnsite'$/;"	v	class:VnSite
+__tablename__	.\db\huawei_models_v2.py	/^    __tablename__ = 'tenantinfo'$/;"	v	class:TenantInformation
+_a2b	.\db\huawei_db.py	/^    def _a2b(self,id):$/;"	m	class:HuaWeiPluginDb
+_b2a	.\db\huawei_db.py	/^    def _b2a(self,id):$/;"	m	class:HuaWeiPluginDb
+_check_huawei_update	.\huawei_plugin.py	/^    def _check_huawei_update(self, context, dict):$/;"	m	class:HuaWeiQuantumPlugin
+_check_site_in_vn	.\db\huawei_db.py	/^    def _check_site_in_vn(self, context, site_id, vn_id):$/;"	m	class:HuaWeiPluginDb
+_check_tenentid_is_right	.\db\huawei_db.py	/^    def _check_tenentid_is_right(self,context):$/;"	m	class:HuaWeiPluginDb
+_fields	.\db\huawei_db.py	/^    def _fields(self,dict,fields):$/;"	m	class:HuaWeiPluginDb
+_fields	.\huawei_plugin.py	/^    def _fields(self, resource, fields):$/;"	m	class:HuaWeiQuantumPlugin
+_get_attachment	.\db\huawei_db.py	/^    def _get_attachment(self, context, site_id):$/;"	m	class:HuaWeiPluginDb
+_get_site	.\db\huawei_db.py	/^    def _get_site(self, context, site_id):##get the basic info of a site$/;"	m	class:HuaWeiPluginDb
+_get_sites_collection	.\db\huawei_db.py	/^    def _get_sites_collection(self,context,dict_fun):#get all sites' basic info as a dict list$/;"	m	class:HuaWeiPluginDb
+_get_vc	.\db\huawei_db.py	/^    def _get_vc(self, context, vc_id):$/;"	m	class:HuaWeiPluginDb
+_get_vc_bw	.\db\huawei_db.py	/^    def _get_vc_bw(self,context,vlinkid):$/;"	m	class:HuaWeiPluginDb
+_get_vc_site	.\db\huawei_db.py	/^    def _get_vc_site(self,context,siteid):$/;"	m	class:HuaWeiPluginDb
+_get_vcs_collection	.\db\huawei_db.py	/^    def _get_vcs_collection(self, context, dict_fun, filters=None, fields=None):$/;"	m	class:HuaWeiPluginDb
+_get_vlink	.\db\huawei_db.py	/^    def _get_vlink(self, context, vlink_id):$/;"	m	class:HuaWeiPluginDb
+_get_vlinks	.\db\huawei_db.py	/^    def _get_vlinks(self, context, vn_id):$/;"	m	class:HuaWeiPluginDb
+_get_vn	.\db\huawei_db.py	/^    def _get_vn(self, context, vn_id, fields=None):$/;"	m	class:HuaWeiPluginDb
+_get_vn_sites_collection	.\db\huawei_db.py	/^    def _get_vn_sites_collection(self,context,dict_fun,vn_id):$/;"	m	class:HuaWeiPluginDb
+_get_vns_collection	.\db\huawei_db.py	/^    def _get_vns_collection(self,context,dict_fun):$/;"	m	class:HuaWeiPluginDb
+_huawei_controller_addr	.\huawei_driver.py	/^_huawei_controller_addr = ("localhost", 9123)$/;"	v
+_make_bin_for_dict	.\db\huawei_db.py	/^    def _make_bin_for_dict(self, dict, fields):$/;"	m	class:HuaWeiPluginDb
+_make_site_dict	.\db\huawei_db.py	/^    def _make_site_dict(self,tst):$/;"	m	class:HuaWeiPluginDb
+_make_tenantsite_dict	.\db\huawei_db.py	/^    def _make_tenantsite_dict(self,tenant_id,site_id,dic):$/;"	m	class:HuaWeiPluginDb
+_make_tenantvn_dict	.\db\huawei_db.py	/^    def _make_tenantvn_dict(self,tenant_id,vn_id,dic):$/;"	m	class:HuaWeiPluginDb
+_make_vc_base_dict	.\db\huawei_db.py	/^    def _make_vc_base_dict(self, vc, tenantvc):$/;"	m	class:HuaWeiPluginDb
+_make_vcs_dict	.\db\huawei_db.py	/^    def _make_vcs_dict(self, tvc, fields):$/;"	m	class:HuaWeiPluginDb
+_make_vlink_dict	.\db\huawei_db.py	/^    def _make_vlink_dict(self, vlink):$/;"	m	class:HuaWeiPluginDb
+_make_vn_dict	.\db\huawei_db.py	/^    def _make_vn_dict(self,tst):$/;"	m	class:HuaWeiPluginDb
+_native_bulk_support	.\huawei_plugin.py	/^    _native_bulk_support = True$/;"	v	class:HuaWeiQuantumPlugin
+_recv_xml_from_controller	.\huawei_driver.py	/^def _recv_xml_from_controller(xmldata):$/;"	f
+_send_xml_to_controller	.\huawei_driver.py	/^def _send_xml_to_controller(xml_serializer, data, is_create=False):$/;"	f
+attach_dict_to_xml	.\huawei_driver.py	/^def attach_dict_to_xml(data):$/;"	f
+attach_xml_to_dict	.\huawei_driver.py	/^def attach_xml_to_dict(xmldata):$/;"	f
+attributes	.\huawei_plugin.py	/^from quantum.api.v2 import attributes$/;"	i
+auth_filter	.\huawei_auth.py	/^    def auth_filter(app):$/;"	f	function:filter_factory
+back_vlinkid	.\db\huawei_models_v2.py	/^	back_vlinkid = Column(Integer(10), nullable=False)$/;"	v	class:VcInformation
+bandwidth	.\db\huawei_models_v2.py	/^	bandwidth = Column(Integer(10), default=None)$/;"	v	class:VlinkInformation
+binascii	.\db\huawei_db.py	/^import binascii$/;"	i
+binascii	.\db\huawei_models_v2.py	/^import binascii$/;"	i
+ceasnum	.\db\huawei_models_v2.py	/^	ceasnum = Column(Integer(10), default=None)$/;"	v	class:SiteInformation
+cfg	.\common\config.py	/^from quantum.openstack.common import cfg$/;"	i
+cfg	.\db\huawei_db_base.py	/^from quantum.openstack.common import cfg$/;"	i
+cfg	.\dirver\huawei_dirver.py	/^from quantum.openstack.common import cfg$/;"	i
+cfg	.\huawei_plugin.py	/^from quantum.openstack.common import cfg$/;"	i
+config	.\db\huawei_db_base.py	/^from quantum.plugins.huawei.common import config$/;"	i
+config	.\dirver\huawei_dirver.py	/^from quantum.plugins.huawei.common import config$/;"	i
+config	.\huawei_plugin.py	/^from quantum.plugins.huawei.common import config$/;"	i
+context	.\huawei_auth.py	/^from quantum import context$/;"	i
+context	.\huawei_plugin.py	/^from quantum.openstack.common import context$/;"	i
+controller_dict_to_xml	.\huawei_driver.py	/^def controller_dict_to_xml(data):$/;"	f
+controller_xml_to_dict	.\huawei_driver.py	/^def controller_xml_to_dict(xmldata):$/;"	f
+create_site	.\huawei_plugin.py	/^    def create_site(self, context, site):$/;"	m	class:HuaWeiQuantumPlugin
+create_vc	.\db\huawei_db.py	/^    def create_vc(self, context, vc):$/;"	m	class:HuaWeiPluginDb
+create_vc	.\huawei_plugin.py	/^    def create_vc(self, context, vc):$/;"	m	class:HuaWeiQuantumPlugin
+create_vn	.\db\huawei_db.py	/^    def create_vn(self,context,body):$/;"	m	class:HuaWeiPluginDb
+create_vn	.\huawei_plugin.py	/^    def create_vn(self, context, vn):$/;"	m	class:HuaWeiQuantumPlugin
+database_opts	.\common\config.py	/^database_opts = [$/;"	v
+datetime	.\db\huawei_db.py	/^import datetime$/;"	i
+datetime	.\db\huawei_models_v2.py	/^from datetime import datetime$/;"	i
+db	.\db\huawei_db_base.py	/^import quantum.db.api as db$/;"	i
+db_base_plugin_v2	.\db\huawei_db.py	/^from quantum.db import db_base_plugin_v2$/;"	i
+db_loop	.\dirver\huawei_dirver.py	/^    def db_loop(self, db_connection_url):$/;"	m	class:HuaWeiQuantumDriver
+default_xml_deserializer	.\huawei_driver.py	/^default_xml_deserializer = wsgi.XMLDeserializer()$/;"	v
+default_xml_serializer	.\huawei_driver.py	/^default_xml_serializer = wsgi.XMLDictSerializer()$/;"	v
+delete_site	.\db\huawei_db.py	/^    def delete_site(self,context,site_id):$/;"	m	class:HuaWeiPluginDb
+delete_site	.\huawei_plugin.py	/^    def delete_site(self, context, site_id):$/;"	m	class:HuaWeiQuantumPlugin
+delete_vc	.\db\huawei_db.py	/^    def delete_vc(self, context, vc_id):$/;"	m	class:HuaWeiPluginDb
+delete_vc	.\huawei_plugin.py	/^    def delete_vc(self, context, vc_id):$/;"	m	class:HuaWeiQuantumPlugin
+delete_vn	.\db\huawei_db.py	/^    def delete_vn(self,context,vn_id):$/;"	m	class:HuaWeiPluginDb
+delete_vn	.\huawei_plugin.py	/^    def delete_vn(self, context, vn_id):$/;"	m	class:HuaWeiQuantumPlugin
+desc	.\db\huawei_models_v2.py	/^	desc = Column(String(128), default=None)$/;"	v	class:TenantSites
+dispatcher	.\huawei_plugin.py	/^from quantum.openstack.common.rpc import dispatcher$/;"	i
+driver_opts	.\common\config.py	/^driver_opts = [$/;"	v
+eventlet	.\huawei_driver.py	/^import eventlet$/;"	i
+exc	.\db\huawei_db_base.py	/^from sqlalchemy.orm import exc$/;"	i
+filter_factory	.\huawei_auth.py	/^def filter_factory(global_conf, **local_conf):$/;"	f
+geoinfo	.\db\huawei_models_v2.py	/^	geoinfo = Column(String(128), default=None)$/;"	v	class:SiteInformation
+get_site	.\db\huawei_db.py	/^    def get_site(self, context, site_id, fields=None):$/;"	m	class:HuaWeiPluginDb
+get_site	.\huawei_plugin.py	/^    def get_site(self, context, site_id,fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_sites	.\db\huawei_db.py	/^    def get_sites(self,context,filters=None,fields=None):$/;"	m	class:HuaWeiPluginDb
+get_sites	.\huawei_plugin.py	/^    def get_sites(self, context, filters=None, fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_vc	.\db\huawei_db.py	/^    def get_vc(self, context, vc_id, fields):$/;"	m	class:HuaWeiPluginDb
+get_vc	.\huawei_plugin.py	/^    def get_vc(self, context, vc_id, fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_vcs	.\db\huawei_db.py	/^    def get_vcs(self, context, filters=None, fields=None):$/;"	m	class:HuaWeiPluginDb
+get_vcs	.\huawei_plugin.py	/^    def get_vcs(self, context, filters=None, fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_vlinks	.\huawei_plugin.py	/^    def get_vlinks(self, context, filters=None, fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_vn	.\db\huawei_db.py	/^    def get_vn(self, context, vn_id, fields=None):$/;"	m	class:HuaWeiPluginDb
+get_vn	.\huawei_plugin.py	/^    def get_vn(self, context, vn_id, fields=None):$/;"	m	class:HuaWeiQuantumPlugin
+get_vns	.\db\huawei_db.py	/^    def get_vns(self, context, fields=None, filters=None):$/;"	m	class:HuaWeiPluginDb
+get_vns	.\huawei_plugin.py	/^    def get_vns(self, context, fields=None,filters=None):$/;"	m	class:HuaWeiQuantumPlugin
+huawei_controller	.\db\huawei_db.py	/^from quantum.plugins.huawei import huawei_controller$/;"	i
+huawei_db	.\huawei_plugin.py	/^from quantum.plugins.huawei.db import huawei_db$/;"	i
+huawei_db_base	.\huawei_plugin.py	/^from quantum.plugins.huawei.db import huawei_db_base$/;"	i
+huawei_driver	.\fake_controller.py	/^from quantum.plugins.huawei import huawei_driver$/;"	i
+huawei_models_v2	.\db\huawei_db.py	/^from quantum.plugins.huawei.db import huawei_models_v2$/;"	i
+huawei_models_v2	.\huawei_plugin.py	/^from quantum.plugins.huawei.db import huawei_models_v2$/;"	i
+huawei_opts	.\common\config.py	/^huawei_opts = [$/;"	v
+hw_cons	.\huawei_plugin.py	/^from quantum.plugins.huawei.common import huawei_constants as hw_cons$/;"	i
+hw_exc	.\db\huawei_db.py	/^from quantum.plugins.huawei.common import huawei_exceptions as hw_exc$/;"	i
+hw_exc	.\huawei_plugin.py	/^from quantum.plugins.huawei.common import huawei_exceptions as hw_exc$/;"	i
+initialize	.\db\huawei_db_base.py	/^def initialize():$/;"	f
+json	.\db\huawei_db.py	/^from quantum.wsgi import XMLDeserializer  ##xml --> json$/;"	i
+json	.\db\huawei_db.py	/^from quantum.wsgi import XMLDictSerializer ## json --> xml$/;"	i
+logging	.\db\huawei_db.py	/^import logging $/;"	i
+logging	.\huawei_plugin.py	/^import logging$/;"	i
+main	.\dirver\huawei_dirver.py	/^def main():$/;"	f
+main	.\fake_controller.py	/^def main():$/;"	f
+message	.\common\huawei_exceptions.py	/^	message = _("Attachment of site %(site_id)s could not be found")$/;"	v	class:AttachmentNotFound
+message	.\common\huawei_exceptions.py	/^	message = _("Site %(site_id)s could not be found")$/;"	v	class:SiteNotFound
+message	.\common\huawei_exceptions.py	/^	message = _("VC %(vc_id)s could not be found")$/;"	v	class:VcNotFound
+message	.\common\huawei_exceptions.py	/^	message = _("VN %(vn_id)s could not be found")$/;"	v	class:VnNotFound
+message	.\common\huawei_exceptions.py	/^	message = _("Vlink %(vlink_id)s could not be found")$/;"	v	class:VlinkNotFound
+message	.\common\huawei_exceptions.py	/^	message = _("cannot complete the operation, the VC %(vc_id)s is in use")$/;"	v	class:VcInUSe
+message	.\common\huawei_exceptions.py	/^	message = _("cannot complete the operation, the VN %(vn_id)s is in use")$/;"	v	class:VnInUse
+message	.\common\huawei_exceptions.py	/^	message = _("the site %(site_id)s is in use")$/;"	v	class:SiteInUse
+message	.\common\huawei_exceptions.py	/^    message = _("Error for multi-results")$/;"	v	class:MultiResults
+model_base	.\db\huawei_models_v2.py	/^from quantum.db.models_v2 import model_base$/;"	i
+models_v2	.\db\huawei_db_base.py	/^from quantum.db import models_v2$/;"	i
+orm	.\db\huawei_models_v2.py	/^from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Binary, DateTime, orm$/;"	i
+os	.\huawei_plugin.py	/^import os$/;"	i
+peaddr	.\db\huawei_models_v2.py	/^	peaddr = Column(String(15), default=None)$/;"	v	class:SiteInformation
+peasnum	.\db\huawei_models_v2.py	/^	peasnum = Column(Integer(10), default=None)$/;"	v	class:SiteInformation
+peloaddr	.\db\huawei_models_v2.py	/^	peloaddr = Column(String(15), default=None)$/;"	v	class:SiteInformation
+plug_attach_for_site	.\db\huawei_db.py	/^    def plug_attach_for_site(self,context,site_id,body):$/;"	m	class:HuaWeiPluginDb
+policy	.\huawei_plugin.py	/^from quantum import policy$/;"	i
+provider	.\huawei_plugin.py	/^from quantum.extensions import providernet as provider #TODO$/;"	i
+proxy	.\huawei_plugin.py	/^from quantum.openstack.common.rpc import proxy$/;"	i
+pwd	.\db\huawei_models_v2.py	/^    pwd = Column(String(64), nullable=True, default=None)$/;"	v	class:TenantInformation
+pwid	.\db\huawei_models_v2.py	/^	pwid = Column(Integer(10), nullable=False)$/;"	v	class:VcInformation
+q_const	.\huawei_plugin.py	/^from quantum.common import constants as q_const$/;"	i
+q_exc	.\db\huawei_db.py	/^from quantum.common import exceptions as q_exc$/;"	i
+q_exc	.\db\huawei_db_base.py	/^from quantum.common import exceptions as q_exc$/;"	i
+q_exc	.\huawei_plugin.py	/^from quantum.common import exceptions as q_exc$/;"	i
+quantum	.\db\huawei_db_base.py	/^import quantum.db.api as db$/;"	i
+random	.\db\huawei_db.py	/^import random$/;"	i
+routetype	.\db\huawei_models_v2.py	/^	routetype = Column(String(32), nullable=True, default=None)$/;"	v	class:SiteAttachment
+rpc	.\huawei_plugin.py	/^from quantum.openstack.common import rpc$/;"	i
+site1id	.\db\huawei_models_v2.py	/^	site1id = Column(Binary(16), nullable=False)$/;"	v	class:VcInformation
+site1id	.\db\huawei_models_v2.py	/^	site1id = Column(Binary(16), nullable=False)$/;"	v	class:VlinkInformation
+site2id	.\db\huawei_models_v2.py	/^	site2id = Column(Binary(16), nullable=False)$/;"	v	class:VcInformation
+site2id	.\db\huawei_models_v2.py	/^	site2id = Column(Binary(16), nullable=False)$/;"	v	class:VlinkInformation
+sitecnt	.\db\huawei_models_v2.py	/^	sitecnt = Column(Integer(10), nullable=False)$/;"	v	class:VnInformation
+siteid	.\db\huawei_models_v2.py	/^	siteid = Column(Binary(10), nullable=False, primary_key=True)$/;"	v	class:VnSite
+siteid	.\db\huawei_models_v2.py	/^	siteid = Column(Binary(16), ForeignKey("siteinfo.siteid", ondelete="CASCADE"), nullable=False, primary_key=True)$/;"	v	class:SiteAttachment
+siteid	.\db\huawei_models_v2.py	/^	siteid = Column(Binary(16), nullable=False)$/;"	v	class:SiteUpdate
+siteid	.\db\huawei_models_v2.py	/^	siteid = Column(Binary(16), nullable=False, primary_key=True)$/;"	v	class:SiteInformation
+siteid	.\db\huawei_models_v2.py	/^	siteid = Column(Binary(16), nullable=False, primary_key=True)$/;"	v	class:TenantSites
+sitename	.\db\huawei_models_v2.py	/^	sitename = Column(String(64), default=None)$/;"	v	class:SiteInformation
+sites	.\db\huawei_models_v2.py	/^	sites = orm.relationship(VnSite, backref='vninfo')$/;"	v	class:VnInformation
+socket	.\fake_controller.py	/^import socket$/;"	i
+sql_exc	.\db\huawei_db.py	/^from sqlalchemy.orm import exc as sql_exc$/;"	i
+stat	.\db\huawei_models_v2.py	/^	stat = Column(Integer(10), default=0)$/;"	v	class:SiteInformation
+str_uuid	.\db\huawei_models_v2.py	/^from quantum.common.utils import str_uuid$/;"	i
+supported_extension_aliases	.\huawei_plugin.py	/^    supported_extension_aliases = ["provider", "router", "huawei"]$/;"	v	class:HuaWeiQuantumPlugin
+sys	.\huawei_plugin.py	/^import sys$/;"	i
+targetid	.\db\huawei_models_v2.py	/^	targetid = Column(Binary(16), nullable=False, primary_key=True)$/;"	v	class:SiteUpdate
+tenantid	.\db\huawei_models_v2.py	/^	tenantid = Column(Binary(16), nullable=False)$/;"	v	class:TenantSites
+tenantid	.\db\huawei_models_v2.py	/^	tenantid = Column(Binary(16), nullable=False, primary_key=True)$/;"	v	class:TenantVc
+tenantid	.\db\huawei_models_v2.py	/^	tenantid = Column(Binary(16), nullable=False, primary_key=True)$/;"	v	class:TenantVn
+tenantid	.\db\huawei_models_v2.py	/^    tenantid = Column(Binary(16),nullable=False, primary_key=True)$/;"	v	class:TenantInformation
+topics	.\huawei_plugin.py	/^from quantum.common import topics$/;"	i
+tunnelid	.\db\huawei_models_v2.py	/^	tunnelid = Column(Integer(10), nullable=False)$/;"	v	class:VlinkInformation
+type	.\db\huawei_models_v2.py	/^	type = Column(String(36), nullable=False, primary_key=True)$/;"	v	class:SiteUpdate
+unplug_attach_for_site	.\db\huawei_db.py	/^    def unplug_attach_for_site(self,context,site_id,body):$/;"	m	class:HuaWeiPluginDb
+update_site	.\db\huawei_db.py	/^    def update_site(self,context,site_id,body):$/;"	m	class:HuaWeiPluginDb
+update_site	.\huawei_plugin.py	/^    def update_site(self, context, site_id, site):$/;"	m	class:HuaWeiQuantumPlugin
+update_vc	.\db\huawei_db.py	/^    def update_vc(self, context, vc_id, vc):$/;"	m	class:HuaWeiPluginDb
+update_vc	.\huawei_plugin.py	/^    def update_vc(self, context, vc_id, vc):$/;"	m	class:HuaWeiQuantumPlugin
+update_vn	.\db\huawei_db.py	/^    def update_vn(self,context,vn_id,body):$/;"	m	class:HuaWeiPluginDb
+update_vn	.\huawei_plugin.py	/^    def update_vn(self, context, vn_id, vn):$/;"	m	class:HuaWeiQuantumPlugin
+username	.\db\huawei_models_v2.py	/^    username = Column(String(64), nullable=True, default=None)$/;"	v	class:TenantInformation
+utils	.\db\huawei_db.py	/^from quantum.common import utils$/;"	i
+uuid4	.\db\huawei_models_v2.py	/^from uuid import uuid4$/;"	i
+vcid	.\db\huawei_models_v2.py	/^	vcid = Column(Binary(16), ForeignKey("vcinfo.vcid", ondelete="CASCADE"), nullable=False, primary_key=True, default=binascii.a2b_hex(uuid4().hex)) $/;"	v	class:TenantVc
+vcid	.\db\huawei_models_v2.py	/^	vcid = Column(Binary(16), nullable=False, primary_key=True, default=binascii.a2b_hex(uuid4().hex))$/;"	v	class:VcInformation
+vcname	.\db\huawei_models_v2.py	/^	vcname = Column(String(64), default=None)$/;"	v	class:TenantVc
+vlanid	.\db\huawei_models_v2.py	/^	vlanid = Column(Integer(10), default=None)$/;"	v	class:SiteInformation
+vlinkid	.\db\huawei_models_v2.py	/^	vlinkid = Column(Integer(10), nullable=False)$/;"	v	class:VcInformation
+vlinkid	.\db\huawei_models_v2.py	/^	vlinkid = Column(Integer(10), nullable=False, primary_key=True)$/;"	v	class:VlinkInformation
+vlinkid	.\db\huawei_models_v2.py	/^	vlinkid = Column(Integer(10), nullable=False, primary_key=True)$/;"	v	class:VnLink
+vlinks	.\db\huawei_models_v2.py	/^	vlinks = orm.relationship(VnLink, backref='vninfo')$/;"	v	class:VnInformation
+vnid	.\db\huawei_models_v2.py	/^	vnid = Column(Binary(16), ForeignKey("vninfo.vnid", ondelete="CASCADE"), nullable=False)$/;"	v	class:VnLink
+vnid	.\db\huawei_models_v2.py	/^	vnid = Column(Binary(16), ForeignKey("vninfo.vnid", ondelete="CASCADE"), nullable=False, primary_key=True)$/;"	v	class:VnSite
+vnid	.\db\huawei_models_v2.py	/^	vnid = Column(Binary(16), ForeignKey("vninfo.vnid", ondelete=True), nullable=False, primary_key=True)$/;"	v	class:TenantVn
+vnid	.\db\huawei_models_v2.py	/^	vnid = Column(Binary(16), nullable=False, primary_key=True, default=binascii.a2b_hex(uuid4().hex))$/;"	v	class:VnInformation
+vnname	.\db\huawei_models_v2.py	/^	vnname = Column(String(64), default=None)$/;"	v	class:TenantVn
+vnrt	.\db\huawei_models_v2.py	/^	vnrt = Column(Integer(10), default=None)$/;"	v	class:VnSite
+vpntype	.\db\huawei_models_v2.py	/^	vpntype = Column(Integer(10), nullable=False)$/;"	v	class:VnInformation
+wsgi	.\fake_controller.py	/^from quantum import wsgi$/;"	i
+wsgi	.\huawei_driver.py	/^from quantum import wsgi$/;"	i
+xml	.\db\huawei_db.py	/^from quantum.wsgi import XMLDeserializer  ##xml --> json$/;"	i
+xml	.\db\huawei_db.py	/^from quantum.wsgi import XMLDictSerializer ## json --> xml$/;"	i
+xml	.\db\huawei_models_v2.py	/^	xml = Column(String(256), nullable=False)$/;"	v	class:SiteUpdate
+xml_create_vc	.\huawei_driver.py	/^def xml_create_vc(context, body):$/;"	f
+xml_create_vn	.\huawei_driver.py	/^def xml_create_vn(context, body):$/;"	f
+xml_delete_vc	.\huawei_driver.py	/^def xml_delete_vc(context, id):$/;"	f
+xml_delete_vn	.\huawei_driver.py	/^def xml_delete_vn(context, id):$/;"	f
+xml_plug_attach_for_site	.\huawei_driver.py	/^def xml_plug_attach_for_site(context, id, body):$/;"	f
+xml_unplug_attach_for_site	.\huawei_driver.py	/^def xml_unplug_attach_for_site(context, id, body):$/;"	f
+xml_update_vc_bandwidth	.\huawei_driver.py	/^def xml_update_vc_bandwidth(context, id, body):$/;"	f
+xml_update_vlink_of_vn	.\huawei_driver.py	/^def xml_update_vlink_of_vn(context, id, body):$/;"	f
+xmlcontent	.\db\huawei_models_v2.py	/^	xmlcontent = Column(String(256), nullable=False)$/;"	v	class:SiteAttachment
